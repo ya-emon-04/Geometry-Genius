@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    *{
+
+
+        font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+    font-weight: <weight>;
+   font-style: normal;
+    }
+</style>
+</head>
+<body class=""> 
+    <header class="max-w-[1820px] mx-auto">
+        <section class="mt-[20px] bg-[rgba(16,144,216,0.10)]  rounded-[10px] mx-[20px] ">
+            <div class=" flex flex-col text-center space-y-[15px] lg:flex-row lg:justify-between lg:items-center lg:px-[15px]" >
+                <div>
+                    <h1 class="text-[45px] font-[700]">Interactive</h1>
+                    <h1 class="text-[30px] font-[500]">Geometry Genius</h1>
+                </div>
+                <div>
+                    <button class="btn btn-active btn-primary w-[100px] mb-[10px]">Blog</button>
+                </div>
+            </div>
+
+        </section>
+       
+
+    </header>
+
+   <main class="max-w-[1820px] mx-auto mt-[45px]">
+
+    <section class="flex  flex-col mx-[40px]  lg:mx-[100px] space-x-[15px] lg:flex-row">
+        <!-- Div for all card starts -->
+        <div class=" grid grid-cols-1 space-y-[10px]  lg:grid-cols-3 lg:space-x-[10px] ">
+
+            <!-- <1st card starts-->
+            <div class=" card bg-base-100 w-[300px] shadow-xl px-[15px]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/images/triangle.png"
+                    alt="Triangele Pic"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title ">Triangle</h2>
+                  <p>Area (A) = 0.5 X b X h</p>
+                  <div class="flex space-x-[10px]">
+                    <input type="number" placeholder=" b" class="w-[60px] bg-[#F1F1F1]" id="tr_b"><p>cm</p>
+                    <input type="number" placeholder=" h" class="w-[60px] bg-[#F1F1F1]" id="tr_h"><p>cm</p>
+                  </div>
+                  <div class="card-actions">
+                    <button class="btn btn-primary w-[240px] mt-[15px] "  id="tr_calc">Calculate</button>
+                  </div>
+                </div>
+              </div>
+              <!-- <1st card end -->
+               <!-- 2nd card Starts -->
+               <div class="card bg-base-100 w-[300px] shadow-xl px-[15px]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/images/rectangle.png"
+                    alt="Triangele Pic"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title ">Rectangle</h2>
+                  <p>Area (A) = W X L</p>
+                  <div class="flex space-x-[10px]">
+                    <input type="number" placeholder=" w" class="w-[60px] bg-[#F1F1F1]" id="rec_w"><p>cm</p>
+                    <input type="number" placeholder=" l" class="w-[60px] bg-[#F1F1F1]" id="rec_l"><p>cm</p>
+                  </div>
+                  <div class="card-actions">
+                    <button class="btn btn-primary w-[240px] mt-[15px] "  id="rec_calc">Calculate</button>
+                  </div>
+                </div>
+              </div>
+               <!-- 2nd card Ends -->
+               <!-- 3rd card Starts -->
+               <div class="card bg-base-100 w-[300px] shadow-xl px-[15px]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/images/parallelogram.png"
+                    alt="Triangele Pic"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title ">Parallelogram</h2>
+                  <p>Area (A) = b X h</p>
+                  <div class="flex space-x-[10px]">
+                    <input type="number" placeholder=" b" class="w-[60px] bg-[#F1F1F1]" id="pr_b"><p>cm</p>
+                    <input type="number" placeholder=" h" class="w-[60px] bg-[#F1F1F1]" id="pr_h"><p>cm</p>
+                  </div>
+                  <div class="card-actions">
+                    <button class="btn btn-primary w-[240px] mt-[15px] "  id="pr_calc">Calculate</button>
+                  </div>
+                </div>
+              </div>
+               <!-- 3rd card Ends -->
+               <!-- 4th card Starts -->
+               <div class="card bg-base-100 w-[300px] shadow-xl px-[15px]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/images/rhombus.png"
+                    alt="Triangele Pic"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title ">Rhombus</h2>
+                  <p>Area (A) = 0.5 X d<sub>1</sub> X d<sub>2</sub></p>
+                  <div class="flex space-x-[10px]">
+                    <input type="number" placeholder=" d1" class="w-[60px] bg-[#F1F1F1]" id="rm_d1"><p>cm</p>
+                    <input type="number" placeholder=" d2" class="w-[60px] bg-[#F1F1F1]" id="rm_d2"><p>cm</p>
+                  </div>
+                  <div class="card-actions">
+                    <button class="btn btn-primary w-[240px] mt-[15px] "  id="rm_calc">Calculate</button>
+                  </div>
+                </div>
+              </div>
+               <!-- 4th card Ends -->
+               <!-- 5th card Starts -->
+               <div class="card bg-base-100 w-[300px] shadow-xl px-[15px]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/images/pentagon.png"
+                    alt="Triangele Pic"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title ">Pentagon</h2>
+                  <p>Area (A) = 0.5 X p X b</p>
+                  <div class="flex space-x-[10px]">
+                    <input type="number" placeholder=" p" class="w-[60px] bg-[#F1F1F1]" id="pt_p"><p>cm</p>
+                    <input type="number" placeholder=" b" class="w-[60px] bg-[#F1F1F1]" id="pt_b"><p>cm</p>
+                  </div>
+                  <div class="card-actions">
+                    <button class="btn btn-primary w-[240px] mt-[15px] "  id="pt_calc">Calculate</button>
+                  </div>
+                </div>
+              </div>
+               <!-- 5th card ends -->
+               <!-- 6th card starts -->
+               <div class="card bg-base-100 w-[300px] shadow-xl px-[15px]">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/images/ellipse.png"
+                    alt="Triangele Pic"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title ">Ellipse</h2>
+                  <p>Area (A) = 3.1416 X a X b</p>
+                  <div class="flex space-x-[10px]">
+                    <input type="number" placeholder=" a" class="w-[60px] bg-[#F1F1F1]" id="ell_a"><p>cm</p>
+                    <input type="number" placeholder=" b" class="w-[60px] bg-[#F1F1F1]" id="ell_b"><p>cm</p>
+                  </div>
+                  <div class="card-actions">
+                    <button class="btn btn-primary w-[240px] mt-[15px] "  id="ell_calc">Calculate</button>
+                  </div>
+                </div>
+              </div>
+               <!-- 6th card ENDS -->
+
+
+
+   
+        </div>
+         <!-- Div for all card Ends -->
+         <!-- Div for area calculation -->
+         <div class="bg-slate-100  mt-[30px] lg:w-[400px] px-[20px] space-y-[15px] " id="calc_history">
+            <h1 class="flex justify-center text-center mt-[15px] text-2xl font-[500]"><u>Area Calculation History</u> </h1>
+           
+
+
+
+   
+         </div>
+      </section>
+   </main>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
