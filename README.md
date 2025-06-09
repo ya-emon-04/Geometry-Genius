@@ -1,4 +1,4 @@
-Lie Link ::  https://ya-emon-04.github.io/Geometry-Genius/
+Lie Link ::  https://deft-lolly-b3e3d1.netlify.app/
 
 
 
